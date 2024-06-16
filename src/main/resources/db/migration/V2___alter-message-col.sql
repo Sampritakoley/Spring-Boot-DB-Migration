@@ -1,0 +1,1 @@
+ALTER TABLE message ADD created_at TIMESTAMP;

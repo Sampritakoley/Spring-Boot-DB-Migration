@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS message
+(
+    id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(250),
+    content VARCHAR(250)
+);
+
