@@ -2,6 +2,8 @@
 
 This project demonstrates how to manage database migrations in a Spring Boot application using Flyway.
 
+## Project Structure
+
 SpringDbMigration/
 ├── src/
 │ ├── main/
