@@ -10,13 +10,18 @@ This project demonstrates how to manage database migrations in a Spring Boot app
 - │ │ ├── java/
 - │ │ └── resources/
 -
-                  -├── db/
+                  -├── DbMigration/
 -
-                         -├── migration/ # Flyway migration files
+                         -├── PrimaryScript/ # Flyway migration files
+-
+                                    -  └── V3__user-role-mapping.sql / 
+                                    -  |__ V4__add-email-user.sql /
+                                   
+                         -├── SecondaryScript/ # Flyway migration files
 -
                                     -  └── V1__create-user.sql / 
                                     -  |__ V2__alter-user-email.sql /
-                                    -  |__ V3__user-role-mapping.sql /
+                                   
 - │ └── test/
 - │ ├── java/
 - │ └── resources/
