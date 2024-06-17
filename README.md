@@ -1,4 +1,4 @@
-# Spring-Boot-DB-Migration
+# Spring-Boot-Multi-DB-Migration
 
 This project demonstrates how to manage database migrations in a Spring Boot application using Flyway.
 
